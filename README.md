@@ -1,6 +1,10 @@
 # Translatome
 Workflows for polysome and ribosome profiling analyses
 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! This project will be available soon !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 ----------------------------------------------------
 ## Context:
 Translation is the second phase of protein synthesis that involves converting the information on the mRNA sequence to an amino acid sequence. 
@@ -49,15 +53,15 @@ Several packages and softwares are used here, please cite them or cite this Gith
 [<small>[top↑]</small>](#)
 
 ------------------------------------------------------
+## Documentation
+Coming soon
+
 ## LICENSE
-
-[LICENSE]() terms are in agreement with CeCILL License.
-
+[LICENSE](https://github.com/Translatome/Translatome/blob/master/LICENSE.md) terms are in agreement with CeCILL License.
 See : http://www.cecill.info/licences.fr.html
 
 ## Contributions
-
-See the [contributing]() file and please follows the recommandation in the [code of conduct]()
+See the [contributing](https://github.com/Translatome/Translatome/blob/master/CONTRIBUTING.md) file and please follows the recommandation in the [code of conduct](https://github.com/Translatome/Translatome/blob/master/CODE_OF_CONDUCT.md)
 
 [<small>[top↑]</small>](#)
 
@@ -121,5 +125,6 @@ Here, this run tests the execution in dry mode:
 ```shell
 snakemake -s translatome/workflows/raw_quality/00_download_references.smk --use-conda --conda-frontend mamba --configfile configs/config_ribosome.yml -j 1 -p -r -n
 ```
+Remove the -n option to run the workflow.
 
 [<small>[top↑]</small>](#)
