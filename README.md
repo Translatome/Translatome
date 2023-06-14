@@ -6,7 +6,7 @@ Workflows for polysome and ribosome profiling analyses
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 ----------------------------------------------------
-## Context:
+## Context
 Translation is the second phase of protein synthesis that involves converting the information on the mRNA sequence to an amino acid sequence. 
 This process requires mRNA, ribosomes, amino acids, tRNA, and other factors.
 
@@ -35,7 +35,6 @@ We provide here two Snakemake workflows to analyze these different visions of th
 - Read counts
 - Statistics
 - GSEA enrichment analysis
-(with some variation according to kinetic studies or not)
 
 2/ Ribosome profiling (RIBO-SEQ)
 - Quality checking
@@ -78,6 +77,9 @@ Most of the programs are installed using conda environments.
 Other programs are provided as Java archives (jar) and do not require installation.
 Please, do not decompress JAR archives.
 
+[<small>[top↑]</small>](#)
+
+-------------------------------------------------------
 ## Installation
 
 ### Clone workflows into desired working directory
@@ -106,7 +108,9 @@ conda activate snakemake
 ```shell
 pip install .
 ```
+[<small>[top↑]</small>](#)
 
+-------------------------------------------------------
 ## Execution
 
 ### Edit config and complete with your project information
